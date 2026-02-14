@@ -19,7 +19,7 @@ from PIL import Image
 # ============================================================
 
 st.set_page_config(
-    page_title="Wally AI - Clasificador de Residuos",
+    page_title="Wall·E AI - Clasificador de Residuos",
     page_icon="♻️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -236,8 +236,8 @@ if 'contador' not in st.session_state:
 # HEADER
 # ============================================================
 
-st.markdown('<h1 class="main-title">♻️ Wally AI</h1>', unsafe_allow_html=True)
-st.markdown('<p class="subtitle">Wally AI - Clasificación Inteligente de Residuos en Tiempo Real</p>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-title">♻️ Wall·E AI</h1>', unsafe_allow_html=True)
+st.markdown('<p class="subtitle">Wall·E AI - Clasificación Inteligente de Residuos en Tiempo Real</p>', unsafe_allow_html=True)
 
 # ============================================================
 # CARGAR MODELOS
@@ -478,8 +478,9 @@ if st.session_state.historial:
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #64748B; padding: 1rem;'>
-    <p>🌍 <strong>Wally AI</strong> - Clasificación Inteligente de Residuos</p>
+    <p>🌍 <strong>Wall·E AI</strong> - Clasificación Inteligente de Residuos</p>
     <p>Desarrollado con Python + Streamlit + scikit-learn</p>
-    <p>Modelo SVM con ~87% de precisión</p>
+    <p>Modelo SVM con ~90% de precisión</p>
 </div>
 """, unsafe_allow_html=True)
+
