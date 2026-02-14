@@ -19,7 +19,7 @@ from PIL import Image
 # ============================================================
 
 st.set_page_config(
-    page_title="Wally AI",
+    page_title="Wally AI - Clasificador de Residuos",
     page_icon="♻️",
     layout="wide",
     initial_sidebar_state="expanded"
